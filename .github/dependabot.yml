@@ -1,0 +1,14 @@
+version: 2
+updates:
+- package-ecosystem: maven
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: org.apache.solr:solr-velocity
+    versions:
+    - 8.8.1
+  - dependency-name: org.eclipse.jetty.http2:http2-common
+    versions:
+    - 11.0.1
