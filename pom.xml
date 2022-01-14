@@ -12,7 +12,7 @@
         <dependency>
             <groupId>org.eclipse.jetty.http2</groupId>
             <artifactId>http2-common</artifactId>
-            <version>9.4.12.RC0</version>
+            <version>10.0.0-alpha0</version>
         </dependency>
         <dependency>
             <groupId>org.apache.solr</groupId>
